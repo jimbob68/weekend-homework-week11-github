@@ -6,13 +6,13 @@ public class Repository<CommitRecord> {
     private RepoType type;
     private String name;
     private String description;
-    private ArrayList commitRecords;
+    private ArrayList commitRecord;
 
     public  Repository(String name, String description, RepoType type, int i) {
         this.name = name;
         this.description = description;
         this.type = type;
-        this.commitRecords = new ArrayList<CommitRecord>();
+        this.commitRecord = new ArrayList<CommitRecord>();
     }
 
     
@@ -28,7 +28,7 @@ public class Repository<CommitRecord> {
     }
 
     public ArrayList getCommitRecord(CommitRecord commitRecord){
-          return this.commitRecords;
+          return this.commitRecord;
     }
 
 

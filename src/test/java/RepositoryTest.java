@@ -33,7 +33,7 @@ public class RepositoryTest<Description, CommitRecord> {
 
     @Test
     public void canGetCommitRecord() {
-        assertEquals(5, name.getCommitRecord();}
+        assertEquals(5, name.getCommitRecord());}
 
     }
 
