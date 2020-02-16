@@ -1,19 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b663615-3e1f-45d9-8393-95061fd9a277" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="7b663615-3e1f-45d9-8393-95061fd9a277" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AccountType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RepoType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GitHubAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GitHubAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GitHubAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GitHubAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/GitHub.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RepositoryTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -24,23 +42,17 @@
     </option>
   </component>
   <component name="ProjectId" id="1Xnd8Zsg4u0QHbl9seZGUPSwuSl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../day3/CodeClanTowers" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RepositoryTest">
     <configuration name="CommitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHub" />
       <option name="PACKAGE_NAME" value="" />
@@ -50,8 +62,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitHub" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepositoryTest.canGetDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitHub" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
+      <option name="METHOD_NAME" value="canGetDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepositoryTest.canGetRepoType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitHub" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
+      <option name="METHOD_NAME" value="canGetRepoType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepositoryTest" />
+        <item itemvalue="JUnit.RepositoryTest.canGetRepoType" />
+        <item itemvalue="JUnit.RepositoryTest.canGetDescription" />
         <item itemvalue="JUnit.CommitTest" />
       </list>
     </recent_temporary>
@@ -68,5 +112,36 @@
       <updated>1581685633806</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1212" height="272" key="GridCell.Tab.0.bottom" timestamp="1581869861564">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1212" height="272" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1581869861564" />
+    <state width="1212" height="272" key="GridCell.Tab.0.center" timestamp="1581869861564">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1212" height="272" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1581869861564" />
+    <state width="1212" height="272" key="GridCell.Tab.0.left" timestamp="1581869861563">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1212" height="272" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1581869861563" />
+    <state width="1212" height="272" key="GridCell.Tab.0.right" timestamp="1581869861564">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1212" height="272" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1581869861564" />
   </component>
 </project>
