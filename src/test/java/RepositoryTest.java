@@ -3,11 +3,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class RepositoryTest<Description, CommitRecord> {
+public class RepositoryTest<Description, CommitMessage> {
     private Repository name;
     private Description description;
     private RepoType type;
-    private CommitRecord commitRecord;
+    private CommitMessage commitRecord;
 
 
 
@@ -32,8 +32,14 @@ public class RepositoryTest<Description, CommitRecord> {
     }
 
     @Test
-    public void canGetCommitRecord() {
-        assertEquals(5, name.getCommitRecord());}
+    public void commitRecordStartsEmpty(){
+        assertEquals(0, name.checkCommitRecordStartsEmpty());
+    }
+
+
+//    @Test
+//    public void canGetCommitRecord() {
+//        assertEquals(5, name.getCommitRecord());}
 
     }
 
