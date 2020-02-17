@@ -3,11 +3,11 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class GitHubAccountTest<UserName> {
+public class GitHubAccountTest<UserName, Name> {
 
     private GitHubAccount account;
     private UserName userName;
-//    private Name name;
+    private Name name;
 //    private Repositories repositories;
 //    private AccountType accountType;
 
@@ -15,13 +15,19 @@ public class GitHubAccountTest<UserName> {
 
     @Before
     public void before(){
-        account = new GitHubAccount("Bobby"); //, "Money App", 5, AccountType.FREE);
+        account = new GitHubAccount("Bobby" ,"Robert Smith");//, 5, AccountType.FREE);
     }
 
     @Test
     public void checkCanGetUserName(){
         assertEquals("Bobby", account.canGetUserName());
-
     }
+
+    @Test
+    public void checkCanGetName(){
+        assertEquals("Robert Smith", account.canGetName());
+   }
+
+
 
 }
