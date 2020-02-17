@@ -18,30 +18,31 @@ public class RepositoryTest<Description, CommitRecord> {
     }
 
     @Test
-    public void canGetName(){
+    public void can_get_name(){
         assertEquals("Project", name.getName());
     }
 
     @Test
-    public void canGetDescription(){
+    public void can_get_description(){
         assertEquals("Initial Commit", name.getDescription());
     }
 
     @Test
-    public void canGetRepoType(){
+    public void can_get_repo_type(){
         assertEquals(RepoType.PUB, name.GetRepoType());
     }
 
     @Test
-    public void commitRecordStartsEmpty(){
-        assertEquals(0, name.checkCommitRecordStartsEmpty());
+    public void check_commit_record_starts_empty(){
+        assertEquals(0, name.commitRecordStartsEmpty());
     }
-//    @Test
-//    public void canAddCommitRecord(){
-//        name.add(commitRecord);
-//      assertEquals(1, name.addCommitRecord());
-//
-//    }
+    @Test
+    public void can_add_commit_record(){
+//        name.addCommitRecord(commitRecord); // commented this code out as 1
+        //expected and actual 2  Test now passing
+      assertEquals(1, name.addCommitRecord(commitRecord));
+
+    }
 
 
 //    @Test

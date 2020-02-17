@@ -19,20 +19,20 @@ public class GitHubAccountTest<UserName, Name, Repositories> {
     }
 
     @Test
-    public void checkCanGetUserName(){
+    public void check_can_get_user_name(){
         assertEquals("Bobby", account.canGetUserName());
     }
 
     @Test
-    public void checkCanGetName(){
+    public void check_can_get_name(){
         assertEquals("Robert Smith", account.canGetName());
    }
     @Test
-    public void checkCanGetRepositoryNumber(){
+    public void check_can_get_repository_number(){
         assertEquals(5, account.canGetRepositoryNumber());
     }
     @Test
-    public void checkCanGetAccountType(){
+    public void check_can_get_account_type(){
         assertEquals(AccountType.FREE, account.canGetAccountType());
     }
 

@@ -27,13 +27,13 @@ public class Repository<CommitRecord> {
         return this.type;
     }
 
-    public int checkCommitRecordStartsEmpty() {
+    public int commitRecordStartsEmpty() {
         return this.commitRecords.size();
     }
 
-//    public int addCommitRecord(CommitRecord commitRecord){
-//
-//        this.commitRecords.add(commitRecord);
+    public int addCommitRecord(CommitRecord commitRecord){
+        this.commitRecords.add(commitRecord);
+        return this.commitRecords.size();
 
 //    }
 
@@ -44,7 +44,9 @@ public class Repository<CommitRecord> {
 //
 //        return null;
     }
-//}
+
+
+}
 
 //    public int checkCanAddCommitMessage() {
 //        return this.commitRecord.size();
