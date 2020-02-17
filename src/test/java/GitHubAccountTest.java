@@ -9,13 +9,13 @@ public class GitHubAccountTest<UserName, Name, Repositories> {
     private UserName userName;
     private Name name;
     private Repositories repositories;
-//    private AccountType accountType;
+    private AccountType accountType;
 
 
 
     @Before
     public void before(){
-        account = new GitHubAccount("Bobby" ,"Robert Smith", 5);//, AccountType.FREE);
+        account = new GitHubAccount("Bobby" ,"Robert Smith", 5, AccountType.FREE);
     }
 
     @Test
@@ -30,6 +30,10 @@ public class GitHubAccountTest<UserName, Name, Repositories> {
     @Test
     public void checkCanGetRepositoryNumber(){
         assertEquals(5, account.canGetRepositoryNumber());
+    }
+    @Test
+    public void checkCanGetAccountType(){
+        assertEquals(AccountType.FREE, account.canGetAccountType());
     }
 
 

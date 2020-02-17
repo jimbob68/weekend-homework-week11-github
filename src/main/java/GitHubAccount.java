@@ -2,13 +2,13 @@ public class GitHubAccount {
     private String userName;
     private String name;
     private int repositories;
-//    private AccountType accountType;
+    private AccountType accountType;
 
-    public GitHubAccount(String userName, String name, int repositories){
+    public GitHubAccount(String userName, String name, int repositories, AccountType accountType){
         this.userName = userName;
         this.name = name;
         this.repositories = repositories;
-//        this.accountType = accountType;
+        this.accountType = accountType;
     }
 
     public String canGetUserName(){
@@ -21,5 +21,9 @@ public class GitHubAccount {
 
     public int canGetRepositoryNumber() {
         return this.repositories;
+    }
+
+    public AccountType canGetAccountType() {
+        return this.accountType;
     }
 }
