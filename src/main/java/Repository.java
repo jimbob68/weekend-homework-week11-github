@@ -6,13 +6,13 @@ public class Repository<CommitRecord> {
     private RepoType type;
     private String name;
     private String description;
-    private ArrayList <CommitMessage>commitRecord;
+    private ArrayList<CommitRecord>commitRecords;
 
     public  Repository(String name, String description, RepoType type, int i) {
         this.name = name;
         this.description = description;
         this.type = type;
-        this.commitRecord = new ArrayList<CommitMessage>();
+        this.commitRecords = new ArrayList<CommitRecord>();
     }
 
     
@@ -28,10 +28,26 @@ public class Repository<CommitRecord> {
     }
 
     public int checkCommitRecordStartsEmpty() {
-        return this.commitRecord.size();
+        return this.commitRecords.size();
     }
 
-//    public int getCommitRecord() {
+//    public int addCommitRecord(CommitRecord commitRecord){
+//
+//        this.commitRecords.add(commitRecord);
+
+//    }
+
+//    public ArrayList<CommitRecord> addCommitRecord() {
+//        if (this.commitRecords.size() < 100){
+//            return this.commitRecords;
+//        }
+//
+//        return null;
+    }
+//}
+
+//    public int checkCanAddCommitMessage() {
+//        return this.commitRecord.size();
 //    }
 
 //    public ArrayList getCommitRecord(CommitRecord commitRecord){
@@ -40,4 +56,4 @@ public class Repository<CommitRecord> {
 
 
 
-}
+//}

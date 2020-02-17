@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7b663615-3e1f-45d9-8393-95061fd9a277" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GitHubAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GitHubAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GitHubAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GitHubAccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GitHubAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GitHubAccount.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GitHubAccountTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,11 +49,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../day3/CodeClanTowers" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.RepositoryTest">
-    <configuration name="CommitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GitHubAccountTest">
+    <configuration name="GitHubAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GitHub" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommitTest" />
+      <option name="MAIN_CLASS_NAME" value="GitHubAccountTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -60,6 +69,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepositoryTest.canAddCommitRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GitHub" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
+      <option name="METHOD_NAME" value="canAddCommitRecord" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,10 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GitHubAccountTest" />
         <item itemvalue="JUnit.RepositoryTest" />
+        <item itemvalue="JUnit.RepositoryTest.canAddCommitRecord" />
         <item itemvalue="JUnit.RepositoryTest.canGetRepoType" />
         <item itemvalue="JUnit.RepositoryTest.canGetDescription" />
-        <item itemvalue="JUnit.CommitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -124,29 +144,58 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="100" y="100" width="1480" height="850" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1581871905848" />
-    <state width="792" height="300" key="GridCell.Tab.0.bottom" timestamp="1581875063761">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="394" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1581892198408">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="394" y="241" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1581892198408" />
+    <state x="299" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581888865099">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="299" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1581888865099" />
+    <state width="1006" height="300" key="GridCell.Tab.0.bottom" timestamp="1581923513986">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="792" height="300" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1581875063761" />
-    <state width="1212" height="272" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1581869861564" />
-    <state width="792" height="300" key="GridCell.Tab.0.center" timestamp="1581875063760">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1006" height="300" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1581923513986" />
+    <state width="1006" height="300" key="GridCell.Tab.0.center" timestamp="1581923513985">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="792" height="300" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1581875063760" />
-    <state width="1212" height="272" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1581869861564" />
-    <state width="792" height="300" key="GridCell.Tab.0.left" timestamp="1581875063760">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1006" height="300" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1581923513985" />
+    <state width="1006" height="300" key="GridCell.Tab.0.left" timestamp="1581923513984">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="792" height="300" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1581875063760" />
-    <state width="1212" height="272" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1581869861563" />
-    <state width="792" height="300" key="GridCell.Tab.0.right" timestamp="1581875063761">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1006" height="300" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1581923513984" />
+    <state width="1006" height="300" key="GridCell.Tab.0.right" timestamp="1581923513985">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="792" height="300" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1581875063761" />
-    <state width="1212" height="272" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1581869861564" />
-    <state x="378" y="187" key="Maven.ArtifactSearchDialog" timestamp="1581871656985">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1006" height="300" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1581923513985" />
+    <state width="967" height="329" key="GridCell.Tab.1.bottom" timestamp="1581885800920">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="967" height="329" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1581885800920" />
+    <state width="967" height="329" key="GridCell.Tab.1.center" timestamp="1581885800919">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="967" height="329" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1581885800919" />
+    <state width="967" height="329" key="GridCell.Tab.1.left" timestamp="1581885800918">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="967" height="329" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1581885800918" />
+    <state width="967" height="329" key="GridCell.Tab.1.right" timestamp="1581885800920">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="967" height="329" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1581885800920" />
+    <state x="378" y="206" key="Maven.ArtifactSearchDialog" timestamp="1581892269956">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="378" y="187" key="Maven.ArtifactSearchDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1581871656985" />
+    <state x="378" y="206" key="Maven.ArtifactSearchDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1581892269956" />
+    <state x="305" y="234" key="RollbackChangesDialog" timestamp="1581885834877">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="305" y="234" key="RollbackChangesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1581885834877" />
   </component>
 </project>
